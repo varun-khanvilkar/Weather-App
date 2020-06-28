@@ -1,0 +1,19 @@
+*{
+  margin: 0%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app {
+  background-image: url('./cold-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-in-out;
+  min-height: 100vh;
+
+}
+
+.app.warm {
+  background-image: url('./warm-bg.jpg');
+}
+
